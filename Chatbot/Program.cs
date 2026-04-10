@@ -27,6 +27,7 @@ namespace CybersecurityAwarenessBot
 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\nThank you for using the Cybersecurity Awareness Bot!");
+            Console.ReadLine();
             Console.ResetColor();
         }
     }
