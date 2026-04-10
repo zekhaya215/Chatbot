@@ -13,6 +13,7 @@ namespace CybersecurityAwarenessBot
 
             if (string.IsNullOrWhiteSpace(Name))
                 Name = "Guest";
+            Name = Console.ReadLine()?.Trim();
         }
     }
 }
