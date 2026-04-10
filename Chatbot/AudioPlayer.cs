@@ -31,7 +31,8 @@ namespace CybersecurityAwarenessBot
         {
             throw new NotImplementedException();
         }
-
+        // Placeholder method for playing audio synchronously
+        // (Not yet implemented - will cause error if called)
         private void PlaySync()
         {
             throw new NotImplementedException();
