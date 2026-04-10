@@ -77,7 +77,7 @@ namespace CybersecurityAwarenessBot
             if (input.Contains("password")) return "Tip: Always use strong, unique passwords and consider a password manager.";
             if (input.Contains("phishing")) return "Be careful with emails asking for personal info. Verify the sender before clicking links.";
             if (input.Contains("malware")) return "Keep your antivirus up to date and avoid downloading suspicious files.";
-
+            if (input == "help") return "Try asking about: passwords, phishing, malware, VPN, scams, or 2FA.";
             return "I’m not sure about that. Try asking another cybersecurity question!";
         }
     }
